@@ -18,6 +18,16 @@ Pre-requisite: AWS Account Need
 *   Default region name [None]: us-east-1          /*your Region name*/
 *   Default output format [None]: json
 
+**Install AWS CLI**
+* [AWS CLI Install](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+
+# AWS CLI install on ubuntu
+* curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+* unzip awscliv2.zip
+* cd ./aws/
+* ./install       /* or you can run sudo ./aws/install */
+* /usr/local/bin/aws --version
+
 **# Verify if we are able list S3 buckets**
 * Run below command on command line
 * aws s3 ls
