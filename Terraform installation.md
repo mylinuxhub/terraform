@@ -1,9 +1,9 @@
-**# LinuxOS: Terraform & AWS CLI Install**
+# LinuxOS: Terraform & AWS CLI Install
 
 * [Download Terraform](https://www.terraform.io/downloads.html) 
 * [Terraform Install](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
-**# Configure AWS Credentials**
+# Configure AWS Credentials
 
 Pre-requisite: AWS Account Need
 * Create an AWS Account
@@ -18,7 +18,7 @@ Pre-requisite: AWS Account Need
 *   Default region name [None]: us-east-1          /*your Region name*/
 *   Default output format [None]: json
 
-**Install AWS CLI**
+# Install AWS CLI
 * [AWS CLI Install](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 
 # AWS CLI install on ubuntu
@@ -28,7 +28,7 @@ Pre-requisite: AWS Account Need
 * ./install       /* or you can run sudo ./aws/install */
 * /usr/local/bin/aws --version
 
-**# Verify if we are able list S3 buckets**
+# Verify if we are able list S3 buckets
 * Run below command on command line
 * aws s3 ls
 
